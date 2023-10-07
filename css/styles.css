@@ -309,6 +309,32 @@ address {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.team-hero-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  list-style-type: none;
+}
+.team-hero-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #4d5ae5;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.team-hero-item-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  fill: #f4f4fd;
 }
 
 /** ================PORTFOLIO==================== */
@@ -368,8 +394,12 @@ address {
 /** ================FOOTER==================== */
 
 .footer {
+  display: flex;
+  justify-content: space-between; /* Рівномірно розподіляє простір між двома контейнерами внутрішнього footer */
   padding: 100px 0;
   background-color: #2e2f42;
+  color: #fff;
+}
 }
 .footer-title {
   display: inline-block;
@@ -395,3 +425,41 @@ address {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+
+.social-media-title {
+  display: block;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.social-media-list {
+  display: flex;
+
+  align-items: center;
+  gap: 16px;
+  list-style-type: none;
+  margin-top: 16px;
+}
+.social-media-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #4d5ae5;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.social-media-item-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  fill: #f4f4fd;
+}
+
