@@ -329,6 +329,11 @@ address {
   border-radius: 50%;
   background-color: #4d5ae5;
 }
+.team-hero-item :hover:after {
+  border: 2px #31d0aa;
+  border-radius: 50%;
+  background-color: #31d0aa;
+}
 
 .team-hero-item-icon {
   width: 16px;
@@ -400,7 +405,7 @@ address {
   background-color: #2e2f42;
   color: #fff;
 }
-}
+
 .footer-title {
   display: inline-block;
   margin-bottom: 16px;
@@ -462,4 +467,3 @@ address {
   flex-shrink: 0;
   fill: #f4f4fd;
 }
-
