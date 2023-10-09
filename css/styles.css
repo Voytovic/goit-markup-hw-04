@@ -347,7 +347,6 @@ address {
   justify-content: center;
   width: 40px;
   height: 40px;
-  border: 2px solid #4d5ae5;
   border-radius: 50%;
   background-color: #4d5ae5;
 }
@@ -368,9 +367,9 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .team-hero-item-icon {
+.team-hero-item-icon {
   fill: #f4f4fd;
-} */
+}
 /** ================PORTFOLIO==================== */
 
 .portfolio {
@@ -404,11 +403,11 @@ address {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-title-item:hover .portfolio-parag {
+/* .portfolio-title-item:hover .portfolio-parag {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
-}
+} */
 .portfolio-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -418,6 +417,11 @@ address {
 .portfolio-image-container {
   position: relative;
   overflow: hidden;
+}
+.portfolio-image-container:hover .portfolio-parag {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 .portfolio-parag {
   position: absolute;
