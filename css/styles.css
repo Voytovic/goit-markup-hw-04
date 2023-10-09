@@ -398,7 +398,6 @@ address {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-
   list-style-type: none;
 }
 .portfolio-title-item {
