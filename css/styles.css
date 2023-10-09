@@ -85,11 +85,27 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.header-menu-item:first-child {
+  position: relative;
+}
+.header-menu-item:first-child .header-menu-link {
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
 }
-
+.header-menu-item:first-child ::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
 .header-menu-link {
   padding: 24px 0;
   font-size: 16px;
