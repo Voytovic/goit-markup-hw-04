@@ -469,7 +469,7 @@ address {
   align-items: baseline;
 }
 .footer-title {
-  display: inline-block;
+  display: block;
   margin-bottom: 16px;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -502,6 +502,7 @@ address {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  margin-top: 0;
 }
 .social-media-list {
   display: flex;
